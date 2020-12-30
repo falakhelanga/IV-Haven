@@ -1,0 +1,143 @@
+.nav_wrapper {
+  height: 13vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.logo_div h2 {
+  color: #257268;
+  font-size: 1.2rem;
+  display: none;
+}
+.logo_div h1 {
+  color: #257268;
+  font-size: 1.2rem;
+  display: none;
+}
+.mobile {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  height: 40px;
+}
+.nav_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.nav_div {
+  color: white;
+  display: flex;
+  align-items: baseline;
+  display: none;
+}
+
+.nav_div nav ul li {
+  list-style: none;
+  margin-left: 2rem;
+}
+
+.nav_div nav ul a,
+.links {
+  margin-left: 2rem;
+  color: white;
+  text-decoration: none;
+  font-size: larger;
+  font-size: 1.3rem;
+}
+
+.nav_div nav ul a:hover,
+.links:hover {
+  color: #257268;
+}
+
+.nav_div nav ul a:focus,
+.links:focus {
+  color: #257268;
+  font-weight: bold;
+}
+
+.icon {
+  cursor: pointer;
+}
+.icon:hover {
+  color: #257268;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .mobile {
+    display: none;
+  }
+  .nav_div {
+    display: flex;
+    align-items: baseline;
+  }
+  .logo_div h2 {
+    font-size: 1.2rem;
+  }
+  .nav_div nav ul a,
+  .links {
+    font-size: 1rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .mobile {
+    display: none;
+  }
+  .nav_div {
+    display: flex;
+    align-items: baseline;
+  }
+  .logo_div h2 {
+    font-size: 1.3rem;
+    display: block;
+  }
+  .logo_div h1 {
+    display: none;
+  }
+  .nav_div nav ul a,
+  .links {
+    font-size: 1.1rem;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .mobile {
+    display: none;
+  }
+  .nav_div {
+    display: flex;
+    align-items: baseline;
+  }
+  .logo_div h2 {
+    font-size: 1.3rem;
+
+    font-weight: bold;
+    display: none;
+  }
+  .logo_div h1 {
+    font-size: 1.8rem;
+
+    font-weight: bold;
+    display: block;
+  }
+  .nav_div nav ul a,
+  .links {
+    font-size: 1.3rem;
+  }
+  .logo {
+    height: 50px;
+  }
+}

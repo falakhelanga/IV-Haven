@@ -1,0 +1,17 @@
+.mybtn {
+  background-color: rgba(37, 114, 104, 0.8);
+  color: white;
+  font-weight: bold;
+  padding: 8px;
+  margin: auto;
+  transition: ease 0.5s;
+  width: 180px;
+  font-size: 1.5rem;
+}
+
+.mybtn:hover {
+  background-color: rgba(52, 190, 172, 1);
+}
+.fullwidth {
+  width: 80%;
+}

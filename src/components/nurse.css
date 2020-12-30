@@ -1,0 +1,43 @@
+.nurse_container {
+  width: 350px;
+  height: 400px;
+  margin-top: 150px;
+}
+
+.nurse_image {
+  width: 150px;
+  height: 150px;
+
+  background-color: slateblue;
+  border-radius: 50%;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -4rem;
+  z-index: 5;
+  position: relative;
+  border: 0.5rem solid rgb(2, 68, 88);
+}
+
+.nurse_image h3 {
+  margin-top: 38px;
+  margin-bottom: auto;
+  margin-left: 0.5rem;
+
+  color: white;
+}
+
+.nurse_content {
+  background-color: silver;
+  padding-top: 5rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+  color: rgb(2, 68, 88);
+}
+
+@media only screen and (min-width: 1200px) {
+  .nurse_container {
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
+
+.service_container {
+  width: 100%;
+  background: #a1ffce; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #faffd1,
+    #a1ffce
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #faffd1,
+    #a1ffce
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  padding-bottom: 15px;
+}
+
+.service_inner_container h1 {
+  font-weight: bold;
+}
+
+.service_content {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.service_content2 {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.service_content_img {
+  flex: 0.5;
+  height: 370px;
+  overflow: hidden;
+  object-fit: contain;
+}
+
+.details_div {
+  flex: 0.5;
+}
+
+.details_div h3 {
+  color: black;
+  font-weight: bolder;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+.details_div p {
+  font-size: 1rem;
+  color: #257268;
+  line-height: 1.2rem;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .details_div p {
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+  }
+  .service_content {
+    flex-direction: row;
+  }
+  .service_content2 {
+    flex-direction: row-reverse;
+  }
+
+  .service_inner_container h1 {
+    font-size: 3.5rem;
+  }
+}

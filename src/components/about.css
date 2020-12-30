@@ -1,0 +1,39 @@
+.about_container {
+  width: 100%;
+  height: 100vh;
+  background: #3ca55c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #b5ac49,
+    #3ca55c
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #b5ac49,
+    #3ca55c
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.about_container h1 {
+  font-weight: bold;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .about_container h1 {
+    font-size: 3rem;
+  }
+  .about_content p {
+    font-size: 1.3rem;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .about_container h1 {
+    font-size: 3.5rem;
+  }
+  .about_content p {
+    font-size: 1.4rem;
+  }
+}
